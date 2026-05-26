@@ -1,5 +1,5 @@
 # 🛰️ A.R.C Move
-A.R.C Move, named after the backcronym "Automated Realtime Cursor Movement" – is a high-tech utility designed to simulate physical mouse activity using an immersive JARVIS-inspired HUD (Heads-Up Display). It ensures system activity remains "online" while providing a futuristic visual experience.
+A.R.C Move, named after the backronym "Automated Realtime Cursor Movement" – is a high-tech utility designed to simulate physical mouse activity using an immersive JARVIS-inspired HUD (Heads-Up Display). It ensures system activity remains "online" while providing a futuristic visual experience.
 
 Developed by **Chaitanya Kumar Sathivada**
 
