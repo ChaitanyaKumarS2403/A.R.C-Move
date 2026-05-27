@@ -16,7 +16,7 @@ import pyautogui
 from PyQt6.QtCore import Qt, QThread, QUrl
 from PyQt6.QtGui import QIcon 
 from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
-from PyQt6.QtMultimedia import QMediaPlayer
+from PyQt6.QtMultimedia import QMediaPlayer, QAudioOutput  # Added QAudioOutput
 from PyQt6.QtMultimediaWidgets import QVideoWidget
 
 class MovementThread(QThread):
@@ -78,6 +78,13 @@ class ARC(QMainWindow):
         
         # QMediaPlayer handles the backend decoding and playback.
         self.media_player = QMediaPlayer()
+        
+        # --- AUDIO FIX ---
+        # In PyQt6, we must explicitly create an audio output and link it to the player.
+        self.audio_output = QAudioOutput()
+        self.media_player.setAudioOutput(self.audio_output)
+        self.audio_output.setVolume(1.0) # Set volume to 100%
+        
         self.media_player.setVideoOutput(self.video_widget)
         
         # Direct URL to the hosted MP4 asset.
