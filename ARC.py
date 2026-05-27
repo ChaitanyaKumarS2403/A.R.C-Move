@@ -81,7 +81,7 @@ class ARC(QMainWindow):
         self.media_player.setVideoOutput(self.video_widget)
         
         # Direct URL to the hosted MP4 asset.
-        video_path = QUrl("https://github.com/ChaitanyaKumarS2403/assets/releases/download/ctOS/ctOS_Loading.mp4")
+        video_path = QUrl("https://github.com/ChaitanyaKumarS2403/assets/releases/download/ctOS_Boot/ctOS_Booting.mp4")
         self.media_player.setSource(video_path)
 
         # Infinite loop: -1 tells the player to restart the video once it ends.
