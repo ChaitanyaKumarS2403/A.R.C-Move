@@ -16,7 +16,7 @@ import pyautogui
 from PyQt6.QtCore import Qt, QThread, QUrl
 from PyQt6.QtGui import QIcon 
 from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget
-from PyQt6.QtMultimedia import QMediaPlayer, QAudioOutput  # Added QAudioOutput
+from PyQt6.QtMultimedia import QMediaPlayer, QAudioOutput 
 from PyQt6.QtMultimediaWidgets import QVideoWidget
 
 class MovementThread(QThread):
@@ -79,11 +79,10 @@ class ARC(QMainWindow):
         # QMediaPlayer handles the backend decoding and playback.
         self.media_player = QMediaPlayer()
         
-        # --- AUDIO FIX ---
-        # In PyQt6, we must explicitly create an audio output and link it to the player.
+        # Initialize audio output and link it to the player.
         self.audio_output = QAudioOutput()
         self.media_player.setAudioOutput(self.audio_output)
-        self.audio_output.setVolume(1.0) # Set volume to 100%
+        self.audio_output.setVolume(1.0) # Set initial volume to 100%
         
         self.media_player.setVideoOutput(self.video_widget)
         
@@ -123,11 +122,16 @@ class ARC(QMainWindow):
         # Toggle Fullscreen mode using the 'F' key.
         if event.key() == Qt.Key.Key_F:
             if self.isFullScreen():
-                # Reverts to windowed mode with title bar and controls.
                 self.showNormal()
             else:
-                # Enters "Cinema/HUD" mode: No title bar, no taskbar.
                 self.showFullScreen()
+
+        # Toggle Mute using the 'M' key.
+        elif event.key() == Qt.Key.Key_M:
+            if self.audio_output.volume() > 0:
+                self.audio_output.setVolume(0.0)  # Mute
+            else:
+                self.audio_output.setVolume(1.0)  # Unmute (Restore to 100%)
 
 if __name__ == "__main__":
     # Initialize the high-level Application object.
