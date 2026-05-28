@@ -3,21 +3,21 @@ A.R.C Move, named after the backronym "Automated Realtime Cursor Movement" – i
 
 Developed by **Chaitanya Kumar Sathivada**
 
-<a href="https://github.com/ChaitanyaKumarS2403">
-  <img src="https://github.com/ChaitanyaKumarS2403/assets/raw/main/projects_repo/Misc/github_profile.png" alt="GitHub" height=50>
+<a href="https://github.com/chaitanyakumar-ReDSeC">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/projects_repo/Misc/github_profile.png" alt="GitHub" height=50>
 </a>
 <a href="https://www.linkedin.com/in/chaitanya-kumar-sathivada/">
-  <img src="https://github.com/ChaitanyaKumarS2403/assets/raw/main/projects_repo/Misc/linkedin_profile.png" alt="LinkedIn" height=50>
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/projects_repo/Misc/linkedin_profile.png" alt="LinkedIn" height=50>
 </a>
 
 Download the resource now! Click on the `Download` button below and extract the files to your desired location.
 
-<a href="https://github.com/ChaitanyaKumarS2403/ffmpeg-wrapper/releases/download/v1.0.0.0/FFmpeg.Wrapper.exe">
-        <img src="https://github.com/ChaitanyaKumarS2403/assets/raw/main/projects_repo/Misc/DownloadNow.png" alt="Download Now" height=50>
+<a href="https://github.com/chaitanyakumar-ReDSeC/ffmpeg-wrapper/releases/download/v1.0.0.0/FFmpeg.Wrapper.exe">
+        <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/projects_repo/Misc/DownloadNow.png" alt="Download Now" height=50>
 </a>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## ✨ Features
@@ -28,7 +28,7 @@ Download the resource now! Click on the `Download` button below and extract the 
 * **Branded Interface:** Integrated window icon support for a professional look.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## 🚀 Getting Started
@@ -40,7 +40,7 @@ Download the resource now! Click on the `Download` button below and extract the 
 ### Installation
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/ChaitanyaKumarS2403/A.R.C-Move.git
+    git clone https://github.com/chaitanyakumar-ReDSeC/A.R.C-Move.git
     cd A.R.C-Move
     ```
 2.  **Add your Assets:**
@@ -54,7 +54,7 @@ This script will:
 3.  Launch the **A.R.C** interface.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## 🛠️ Technical Breakdown
@@ -63,7 +63,7 @@ The project is built using a dual-layer architecture:
 * **The Frontend (PyQt6):** Handles the Multimedia player and edge-to-edge video rendering using `QVideoWidget`.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## ⌨️ Controls
