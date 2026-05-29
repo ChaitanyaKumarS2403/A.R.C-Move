@@ -17,7 +17,7 @@ Download the resource now! Click on the `Download` button below and extract the 
 </a>
 
 <p align="center">
-  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## ✨ Features
@@ -28,7 +28,7 @@ Download the resource now! Click on the `Download` button below and extract the 
 * **Branded Interface:** Integrated window icon support for a professional look.
 
 <p align="center">
-  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## 🚀 Getting Started
@@ -54,7 +54,7 @@ This script will:
 3.  Launch the **A.R.C** interface.
 
 <p align="center">
-  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## 🛠️ Technical Breakdown
@@ -63,7 +63,7 @@ The project is built using a dual-layer architecture:
 * **The Frontend (PyQt6):** Handles the Multimedia player and edge-to-edge video rendering using `QVideoWidget`.
 
 <p align="center">
-  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/blob/main/general/image_assets/rainbow.png" width="100%">
+  <img src="https://github.com/chaitanyakumar-ReDSeC/assets/raw/main/general/image_assets/rainbow.png" width="100%">
 </p>
 
 ## ⌨️ Controls
